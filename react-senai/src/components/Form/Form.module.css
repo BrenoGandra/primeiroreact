@@ -1,0 +1,77 @@
+.container{
+    padding-top: 68px;
+    display: flex;
+    flex-direction: center;
+    margin: 1rem 0;
+    
+}
+
+.container h2{
+    margin-bottom: 1rem;
+    display: flex;
+    font-size: 28px;
+    color: silver;
+    align-items: center;
+    
+
+}
+.container form{
+    width: 50%;
+    max-width: 90%;
+    border-radius: 20px;
+    background-color: rgb(31, 29, 29);
+    padding: 36px 64px;
+    align-items: center
+   
+}
+
+.container div{
+    margin-bottom:  1rem;
+}
+
+.container label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+
+}
+
+.container input{
+    background-color: azure;
+    width: 100%;
+    padding: 15px 10px;
+    margin-bottom: 0.5rem;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+.container button{
+    background-color: rgb(6, 54, 185) ;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 24px 28px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    margin-top: 0.5rem;
+    
+
+}
+
+.container button:hover{
+    background-color: blue;
+}
+
+.container textarea{
+    background-color: azure;
+    width: 100%;
+    padding: 15px 10px;
+    margin-bottom: 0.5rem;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}

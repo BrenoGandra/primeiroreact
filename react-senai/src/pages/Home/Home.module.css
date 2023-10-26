@@ -1,0 +1,45 @@
+.home{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}
+
+.home img{
+    height: 450px ;
+}
+
+.home p{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 16px;
+
+}
+
+.home span{
+    color: rgb(6, 54, 185);
+}
+
+.btn{
+    width: 250px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0;
+    border-radius: 12px;
+    background-color: rgb(6, 54, 185);
+    color: white;
+    cursor: pointer;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn:hover{
+    background-color: blue;
+
+}

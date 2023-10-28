@@ -7,7 +7,7 @@ function Sobre() {
         <>
            <Header />
            <Container>
-                <h2>Sobre</h2>
+                <h2>Produtos</h2>
 
            </Container>
            <Footer />

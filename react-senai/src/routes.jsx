@@ -1,8 +1,8 @@
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Home from "./pages/Home";
-import Sobre from "./pages/Sobre";
-import Projetos from "./pages/Projetos";
-import Contato from "./pages/Contato";
+import Sobre from "./pages/Produtos";
+import Projetos from "./pages/Serviços";
+import Contato from "./pages/Login";
 
 function AppRoutes(){
     return(

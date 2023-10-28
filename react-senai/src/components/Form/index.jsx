@@ -5,7 +5,7 @@ function Form() {
         <section className={styles.container}>
             
             <form action="">
-                <h2>Complete o formulário para entrar em contato!</h2>
+                <h2>Preencha os campos para fazer login!</h2>
                 <div>
                     <label>
                         <input type="text" placeholder="Digite seu nome" required="required"/>
@@ -20,11 +20,11 @@ function Form() {
                 </div>
                 <div>
                     <label>
-                        <textarea className="textarea" cols="110" rows="8" placeholder="Digite um comentário"></textarea>
+                        <input type="password" placeholder="Digite sua senha" />
                     </label>
                 </div>
                 <div>
-                    <button>Enviar formulário</button>
+                    <button>Fazer Login</button>
                 </div>
                
             </form>

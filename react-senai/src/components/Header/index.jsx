@@ -5,13 +5,13 @@ function Header() {
     return(
         <header className={styles.header}>
             <Link to="/">
-                <span>BrenoGandra.dev</span>
+                <span>Petzin</span>
             </Link>  
             <nav>
                 <Link to="/">Home</Link>
-                <Link to="/sobre">Sobre</Link>
-                <Link to="/projetos">Projetos</Link>
-                <Link to="/contato">Contato</Link>
+                <Link to="/sobre">Produtos</Link>
+                <Link to="/projetos">Serviços</Link>
+                <Link to="/contato">Login</Link>
             </nav>
         </header>
 

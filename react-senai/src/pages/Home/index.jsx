@@ -13,13 +13,13 @@ function Home() {
                 <section className={styles.home}>
                     <div className={styles.apresentacao}>
                         <p>
-                            Olá, eu sou o <br />
-                            <span>Breno Gandra</span> <br />
-                            Estudante Dev
+                            Bem vindo ao <br />
+                            <span>Petzin</span> <br />
+                            
                         </p>
                     <Link to="/sobre" className={`${styles.btn}`}>Saiba mais</Link>
                     </div>
-                    <figure><img className='img-home' src="home.svg" alt="foto inicial" /></figure>
+                    <figure><img className='img-home' src="/petzin.png" alt="foto inicial" /></figure>
                 </section>
             
 
